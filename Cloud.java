@@ -7,11 +7,11 @@ public class Cloud {
 		
 		try {
 			BufferedReader in = new BufferedReader(new InputStreamReader(System.in)); 
-			System.out.println("Enter a: ");
-			double a = Double.parseDouble(in.readLine());
-			System.out.println("Enter n: ");
-			double n = Double.parseDouble(in.readLine());
-			System.out.println("a^n = " + Math.pow(a, n));
+			System.out.println("Enter k: ");
+			double k = Double.parseDouble(in.readLine());
+			System.out.println("Enter b: ");
+			double b = Double.parseDouble(in.readLine());
+			System.out.println("k^b = " + Math.pow(k, b));
 			in.close();
 		} catch(Exception e){};
 	}
